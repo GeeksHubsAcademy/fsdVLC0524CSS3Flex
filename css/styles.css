@@ -1,0 +1,46 @@
+
+body {
+
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: beige;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#general {
+
+    height: 38em;
+    width: 38em;
+
+    background-color: grey;
+
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column-reverse; */
+    /* justify-content: end;
+    align-items: end; */
+}
+
+.box {
+
+    height: 4em;
+    width: 4em;
+
+    margin: 2em;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-weight: bold;
+}
